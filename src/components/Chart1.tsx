@@ -68,6 +68,7 @@ const Chart1: React.FunctionComponent<IChart1Props> = ({
         options={chartOptions.options}
         series={chartOptions.series}
         height={500}
+        data-testid="chart"
       />
     </div>
   );
